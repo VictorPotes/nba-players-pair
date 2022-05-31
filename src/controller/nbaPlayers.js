@@ -13,10 +13,10 @@ const readInput = async () => {
     let correctInput = validateInput(input);
     if (correctInput.valid) {
       let nbaPlayers = await getNBAPlayers(QUERY);
-      let answer = getPairsOfNBAPlayers(nbaPlayers, correctInput.number);
-      if (answer.length > 0) {
-        delete answer.length;
-        for (pair in answer) {
+      let pairs = getPairsOfNBAPlayers(nbaPlayers, correctInput.number);
+      if (pairs.length > 0) {
+        delete pairs.length;
+        for (pair in pairs) {
           console.log(pair);
         }
       } else {
