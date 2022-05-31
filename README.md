@@ -5,7 +5,7 @@
 ## How to run
 
 - Download the repository
-- Open the terminal and go to the project root (./nba-players-pair)
+- Open the terminal and go to the project root eg: (./nba-players-pair) or (./nba-players-pair-main)
 - run "npm install"
 - to run the script of the project, first go to: src/controller/
 - in controller folder run "node index.js --i integer" which integer is the slot for integer input, example: node index.js --i 139
@@ -13,6 +13,6 @@
 
 ## How to run tests
 
-- Open the terminal and go to the project root (./nba-players-pair)
+- Open the terminal and go to the project root eg: (./nba-players-pair) or (./nba-players-pair-main)
 - run "npm test", tests run on Jest
 - If you want to check tests on a web page, go to "cd coverage/lcov-report/index.html" There you can open it on a browser (you can use live server extension of VSC)
