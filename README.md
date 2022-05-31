@@ -1,4 +1,4 @@
-### Pair of NBA player whose heights adds up an integer input
+# Pair of NBA player whose heights adds up an integer input
 
 ## Desire tool to see the project and run it: Visual Studio Code (VSC)
 
