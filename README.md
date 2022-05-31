@@ -7,7 +7,7 @@
 - Download the repository
 - Open the terminal and go to the project root (./nba-players-pair)
 - run "npm install"
-- to run the script the project, first go to: src/controller/
+- to run the script of the project, first go to: src/controller/
 - in controller folder run "node index.js --i integer" which integer is the slot for integer input, example: node index.js --i 139
 - Answers will be printed in the console
 
