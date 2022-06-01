@@ -16,7 +16,7 @@ const readInput = async () => {
       let pairs = getPairsOfNBAPlayers(nbaPlayers, correctInput.number);
       if (pairs.length > 0) {
         delete pairs.length;
-        for (pair in pairs) {
+        for (let pair in pairs) {
           console.log(pair);
         }
       } else {
